@@ -10,7 +10,7 @@ header {
     padding: .8rem;
     background: #160247;
     color: #F34D0A; 
-    font-family: Montserrat;
+    font-family: Courier;
 }
 
 nav{
@@ -48,16 +48,7 @@ nav{
 
 
 
-footer {
-    text-align: center;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding: .8rem;
-    font-family: Courier;
-    font-size: 0.85rem;
-}
+
 
 
 section{
@@ -101,6 +92,7 @@ strong{
 .box-img-main{
     max-width: 450px;
     padding: 1rem;
+    
 }
 
 .img-profile{
@@ -122,12 +114,14 @@ strong{
     align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
+    
 }
 
 .second-section p{
     color: #F34D0A;
     font-weight: bold;
     letter-spacing: 2px;
+    font-family: Courier;
 }
 
 .second-section p:hover{
@@ -138,12 +132,14 @@ strong{
 .title{
     color: white;
     text-align: center;
+    font-family: Courier;
 }
 
 .third-section{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    font-family: Courier;
     
 }
 
@@ -163,8 +159,19 @@ strong{
 .third-section > div p{
     max-width: 600px;
     color: white;
-    font-family: Montserrat;
+    font-family: Courier;
     line-height: 1.6;
+}
+
+.five-section {
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: .8rem;
+    font-family: Courier;
+    font-size: 0.85rem;
 }
 
 
@@ -193,6 +200,7 @@ strong{
 
 .typewriter h1 {
     color: #F34D0A;
+    font-family: Courier;
     //font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
@@ -243,5 +251,17 @@ strong{
 	//border-radius: 50em;
 	border: 3px solid transparent;
 	position: relative;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: .8rem;
+    font-family: Courier;
+    font-size: 0.85rem;
+    background-color: #160247;
 }
 
